@@ -11,6 +11,8 @@ int main()
 	char mark;
 	do
 	{
+
+		
 		board();
 		player=(player%2)?1:2;
 		cout << "Player " << player << ", enter a number:  ";
